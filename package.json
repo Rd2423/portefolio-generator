@@ -1,0 +1,22 @@
+{
+  "name": "portefolio-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rd2423/portefolio-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rd2423/portefolio-generator/issues"
+  },
+  "homepage": "https://github.com/Rd2423/portefolio-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
