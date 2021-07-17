@@ -1,7 +1,7 @@
-module.exports = templateData => {
-    console.log(templateData);
-  
-    return `
+module.exports = (templateData) => {
+  const { projects, about, ...header } = templateData;
+  console.log(templateData);
+  return `
     <!DOCTYPE html>
     <html lang="en">
   
@@ -18,4 +18,4 @@ module.exports = templateData => {
     </body>
     </html>
     `;
-  };
+};
